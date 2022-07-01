@@ -1,0 +1,33 @@
+@media screen and (min-width: 0) {
+.recetas{
+    display: block;
+    padding: 1rem;
+}
+    .receta{
+        width: calc(94.4% - 5rem);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .recetas{
+        display: flex;
+        padding: 2.5rem 0 0 2.5rem;
+    }
+   .receta{
+       width: 33.33%;
+
+   }
+
+}
+@media screen and (min-width: 992px) {
+    .recetas{
+        display: flex;
+        padding: 5rem 0 0 5rem;
+    }
+    .receta{
+        width: calc(29.90% - 5rem);
+
+    }
+
+}

@@ -1,0 +1,17 @@
+
+.cabecera{
+    position: fixed;
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    width: 100%;
+    opacity: 90%;    
+    margin-top: -5.4rem;
+}
+main{
+    margin-top: 5rem;
+}
+
+

@@ -1,0 +1,57 @@
+@media screen and (min-width: 0) {
+
+    .quienes-somos__titulo{
+        font-size: 2rem;
+    }
+    .quienes-somos__descripcion{
+        font-size: 1.15rem;
+    }
+    .personas{
+        flex-direction: column;
+    }
+    .persona__imagen{
+        margin: 1rem auto;
+        justify-content: center;
+        align-content: center;
+        height: 150px;
+        width: 150px;
+    }
+    .persona{
+
+    }
+}
+
+@media screen and (min-width: 768px){
+    .quienes-somos__titulo{
+        font-size: 3.1875rem;
+    }
+    .quienes-somos__descripcion{
+        font-size: 1.75rem;
+    }
+    .personas{
+        flex-direction: row;
+    }
+    .persona__imagen{
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+    }
+
+}
+@media screen and (min-width: 992px){
+    .quienes-somos__titulo{
+        font-size: 3.1875rem;
+    }
+    .quienes-somos__descripcion{
+        font-size: 1.75rem;
+    }
+    .personas{
+        flex-direction: row;
+    }
+    .persona__imagen{
+        margin: 0 auto;
+        height: 300px;
+        width: 300px;
+    }
+
+}

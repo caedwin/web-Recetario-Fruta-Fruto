@@ -1,0 +1,19 @@
+.menu__link{
+    display: flex;
+    float: right;
+    line-height: 3.3rem;
+}
+.menu__link:last-child{
+    margin-right: 0;
+}
+.checkbtn{
+    font-size: 1.5rem;
+    float: right;
+    color: #333333;
+    line-height: 5.5rem;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
